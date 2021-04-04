@@ -1,3 +1,7 @@
+package pages;
+
+import testdata.Client;
+
 import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;

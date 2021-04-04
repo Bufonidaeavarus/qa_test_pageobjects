@@ -1,12 +1,14 @@
+package testdata;
+
 import com.github.javafaker.Faker;
 
 public class Client {
-    String firstName;
-    String lastName;;
-    String email;
-    String userNumber;
-    String gender;
-    String currentAddress;
+    public String firstName;
+    public String lastName;;
+    public String email;
+    public String userNumber;
+    public String gender;
+    public String currentAddress;
     public Client(){
         Faker faker = new Faker();
         firstName = faker.name().firstName();

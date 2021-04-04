@@ -1,4 +1,8 @@
+package tests;
+
 import org.junit.jupiter.api.Test;
+import pages.DemoQAPage;
+import testdata.Client;
 
 public class DemoQATests {
 
@@ -6,7 +10,6 @@ public class DemoQATests {
     void practiceFormTest() {
         DemoQAPage demoQAPage = new DemoQAPage();
         Client client = new Client();
-        System.out.println("client.userNumber"+client.userNumber);
         demoQAPage.openPage();
         demoQAPage.fillForm(client);
         demoQAPage.checkData(client);
